@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="1" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="1" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -8074,7 +8074,10 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="SCREW1" library="teensylu" deviceset="3MM-SCREW" device=""/>
 <part name="S1" library="teensylu" deviceset="TAC_SWITCH" device="SMD" value="RESET"/>
 <part name="C7" library="teensylu" deviceset="CAPACITOR_" device="0603" value="0.1uF">
-<attribute name="VDC" value="10v"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R71C104KA01D"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VDC" value="16v"/>
 </part>
 <part name="GND23" library="teensylu" deviceset="GND" device=""/>
 <part name="R12" library="teensylu" deviceset="RESISTOR_" device="0603" value="100k"/>
@@ -8086,23 +8089,47 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="5V_2" library="teensylu" deviceset="5V" device=""/>
 <part name="5V_3" library="teensylu" deviceset="5V" device=""/>
 <part name="C3" library="teensylu" deviceset="CAPACITOR_" device="0603" value="0.1uF">
-<attribute name="VDC" value="10v"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R71C104KA01D"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VDC" value="16v"/>
 </part>
 <part name="GND7" library="teensylu" deviceset="GND" device=""/>
-<part name="U5" library="teensylu" deviceset="AT90USB" device="" value="AT90USB1286"/>
+<part name="U5" library="teensylu" deviceset="AT90USB" device="" value="AT90USB1286">
+<attribute name="MANUFACTURER" value="Atmel"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AT90USB1286"/>
+</part>
 <part name="R6" library="teensylu" deviceset="RESISTOR_" device="0603" value="22"/>
 <part name="R7" library="teensylu" deviceset="RESISTOR_" device="0603" value="22"/>
 <part name="5V_5" library="teensylu" deviceset="5V" device=""/>
-<part name="C9" library="teensylu" deviceset="CAPACITOR_" device="0603" value="1uf"/>
+<part name="C9" library="teensylu" deviceset="CAPACITOR_" device="0603" value="1uf">
+<attribute name="MANUFACTURER" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105MO8NNNC"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="16"/>
+</part>
 <part name="R13" library="teensylu" deviceset="RESISTOR_" device="0603" value="100k"/>
 <part name="SCREW3" library="teensylu" deviceset="3MM-SCREW" device=""/>
 <part name="JP10" library="teensylu" deviceset="M03" device="POLAR" value="E-STOP"/>
-<part name="C15" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10uF"/>
-<part name="C14" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10uF"/>
+<part name="C15" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10uF">
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61C106MA73D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="16V"/>
+</part>
+<part name="C14" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10uF">
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61C106MA73D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="16V"/>
+</part>
 <part name="J8" library="teensylu" deviceset="JP7Q" device="" value="2x7"/>
 <part name="GND12" library="teensylu" deviceset="GND" device=""/>
 <part name="GND1" library="teensylu" deviceset="GND" device=""/>
-<part name="LED1" library="teensylu" deviceset="LED" device="CHIPLED_0805" value="POWER"/>
+<part name="LED1" library="teensylu" deviceset="LED" device="CHIPLED_0805" value="POWER">
+<attribute name="MANUFACTURER" value="Kingbright"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT2012SGC"/>
+</part>
 <part name="GND4" library="teensylu" deviceset="GND" device=""/>
 <part name="5V_1" library="teensylu" deviceset="5V" device=""/>
 <part name="JP1" library="SparkFun" deviceset="FIDUCIAL" device="1X2.5"/>
@@ -8153,7 +8180,12 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="GND29" library="teensylu" deviceset="GND" device=""/>
 <part name="R18" library="teensylu" deviceset="RESISTOR_" device="0603" value="4.7k"/>
 <part name="5V_14" library="teensylu" deviceset="5V" device=""/>
-<part name="C16" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10uF"/>
+<part name="C16" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10uF">
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61C106MA73D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="16V"/>
+</part>
 <part name="JP5" library="teensylu" deviceset="PROGHEADER" device="" value="ISP"/>
 <part name="J7" library="teensylu" deviceset="4P-TERM-BLOCK" device="282834-4" value="HOTEND-1"/>
 <part name="J10" library="teensylu" deviceset="4P-TERM-BLOCK" device="282834-4" value="HOTEND-2"/>
@@ -8166,13 +8198,20 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 </part>
 <part name="C8" library="teensylu" deviceset="CAPACITOR_" device="0805" value="10uF">
 <attribute name="ESR" value="0.0030"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR71A106KE51L"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VDC" value="10v"/>
 </part>
-<part name="C4" library="teensylu" deviceset="CAPACITOR_" device="0603" value="100nF">
-<attribute name="ESR" value="0.0064"/>
-<attribute name="VDC" value="50"/>
+<part name="C4" library="teensylu" deviceset="CAPACITOR_" device="0603" value="0.1uF">
+<attribute name="MANUFACTURER" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10B104KB8NNNC"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VDC" value="50V"/>
 </part>
-<part name="C1" library="teensylu" deviceset="CAPACITOR_" device="0805" value="4.7uF">
+<part name="C1" library="teensylu" deviceset="CAPACITOR_" device="1206" value="4.7uF">
+<attribute name="MANUFACTURER" value="Yaiyo Yuden"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UMK316AB7475KL-T"/>
 <attribute name="VDC" value="50v"/>
 </part>
 <part name="R5" library="teensylu" deviceset="RESISTOR_" device="0603" value="6.49">
@@ -8190,13 +8229,21 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="J2" library="teensylu" deviceset="MICROSD" device=""/>
 <part name="U3" library="teensylu" deviceset="AP7313" device="SOT23C"/>
 <part name="U4" library="teensylu" deviceset="TXB0104" device="TSSOP14"/>
-<part name="C11" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10uF"/>
+<part name="C11" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10uF">
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61C106MA73D"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="16V"/>
+</part>
 <part name="+3V31" library="teensylu" deviceset="+3V3" device=""/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V32" library="teensylu" deviceset="+3V3" device=""/>
 <part name="C6" library="teensylu" deviceset="CAPACITOR_" device="0603" value="0.1uF">
-<attribute name="VDC" value="10v"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R71C104KA01D"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VDC" value="16V"/>
 </part>
 <part name="12V_3" library="teensylu" deviceset="12V" device=""/>
 <part name="GND3" library="teensylu" deviceset="GND" device=""/>
@@ -8235,9 +8282,22 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="JP4" library="teensylu" deviceset="JUMPER-3" device="PTH" value="X-STOP-VOLTAGE"/>
 <part name="12V_8" library="teensylu" deviceset="12V" device=""/>
 <part name="5V_11" library="teensylu" deviceset="5V" device=""/>
-<part name="X1" library="teensylu" deviceset="XTAL" device="" value="16MHZ"/>
-<part name="C12" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10pF"/>
-<part name="C13" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10pF"/>
+<part name="X1" library="teensylu" deviceset="XTAL" device="" value="16MHZ">
+<attribute name="MANUFACTURER" value="NDK"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NX5032GA-16.000000MHZ-LN-CD-1"/>
+</part>
+<part name="C12" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10pF">
+<attribute name="MANUFACTURER" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10C100JB8NCNC"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
+<part name="C13" library="teensylu" deviceset="CAPACITOR_" device="0603" value="10pF">
+<attribute name="MANUFACTURER" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10C100JB8NCNC"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
 <part name="GND21" library="teensylu" deviceset="GND" device=""/>
 <part name="D2" library="teensylu" deviceset="SCH-DIODE" device="SOD123F" value="SCH-DIODESOD123F">
 <attribute name="CURRENT" value="1A"/>
@@ -8246,6 +8306,9 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="F1" library="teensylu" deviceset="MINISMDC050F" device="1812"/>
 <part name="C10" library="teensylu" deviceset="CAPACITOR_" device="0805" value="10uF">
 <attribute name="ESR" value="0.0030"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR71A106KE51L"/>
+<attribute name="TOLERANCE" value="10%"/>
 <attribute name="VDC" value="10v"/>
 </part>
 <part name="L1" library="teensylu" deviceset="INDUCTOR" device="SRN6045" value="68uH">
@@ -8438,6 +8501,9 @@ the other, not both.</text>
 <instance part="S1" gate="S" x="182.88" y="46.99" rot="MR0"/>
 <instance part="C7" gate="G$1" x="63.5" y="137.16" rot="MR90">
 <attribute name="VDC" x="63.5" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" x="63.5" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="63.5" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" x="63.5" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="187.96" y="77.47" rot="MR0"/>
 <instance part="R12" gate="G$1" x="172.72" y="49.53" rot="MR90"/>
@@ -8450,9 +8516,15 @@ the other, not both.</text>
 <instance part="5V_3" gate="G$1" x="52.07" y="102.87"/>
 <instance part="C3" gate="G$1" x="43.18" y="139.7" rot="MR270">
 <attribute name="VDC" x="43.18" y="139.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" x="43.18" y="139.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="43.18" y="139.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" x="43.18" y="139.7" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="43.18" y="123.19"/>
-<instance part="U5" gate="G$1" x="121.92" y="97.79"/>
+<instance part="U5" gate="G$1" x="121.92" y="97.79">
+<attribute name="MANUFACTURER" x="121.92" y="97.79" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="121.92" y="97.79" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R6" gate="G$1" x="71.12" y="67.31" smashed="yes">
 <attribute name="NAME" x="64.77" y="67.31" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.93" y="67.31" size="1.778" layer="96"/>
@@ -8465,16 +8537,33 @@ the other, not both.</text>
 <instance part="C9" gate="G$1" x="71.12" y="59.69" smashed="yes">
 <attribute name="NAME" x="64.77" y="59.69" size="1.778" layer="95"/>
 <attribute name="VALUE" x="73.66" y="59.69" size="1.778" layer="96"/>
+<attribute name="MANUFACTURER" x="71.12" y="59.69" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="71.12" y="59.69" size="1.778" layer="96" display="off"/>
+<attribute name="TOLERANCE" x="71.12" y="59.69" size="1.778" layer="96" display="off"/>
+<attribute name="VOLTAGE" x="71.12" y="59.69" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="181.61" y="100.33" rot="R90"/>
 <instance part="SCREW3" gate="G$1" x="30.48" y="35.56"/>
 <instance part="JP10" gate="G$1" x="227.33" y="132.08" rot="R180"/>
-<instance part="C15" gate="G$1" x="213.36" y="-43.18" rot="R90"/>
-<instance part="C14" gate="G$1" x="213.36" y="54.61" rot="R90"/>
+<instance part="C15" gate="G$1" x="213.36" y="-43.18" rot="R90">
+<attribute name="MANUFACTURER" x="213.36" y="-43.18" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="213.36" y="-43.18" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOLERANCE" x="213.36" y="-43.18" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLTAGE" x="213.36" y="-43.18" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="213.36" y="54.61" rot="R90">
+<attribute name="MANUFACTURER" x="213.36" y="54.61" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="213.36" y="54.61" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOLERANCE" x="213.36" y="54.61" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLTAGE" x="213.36" y="54.61" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="J8" gate="B" x="167.64" y="184.15" rot="R270"/>
 <instance part="GND12" gate="1" x="63.5" y="123.19"/>
 <instance part="GND1" gate="1" x="11.43" y="111.76"/>
-<instance part="LED1" gate="G$1" x="25.4" y="76.2"/>
+<instance part="LED1" gate="G$1" x="25.4" y="76.2">
+<attribute name="MANUFACTURER" x="25.4" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="25.4" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="25.4" y="66.04"/>
 <instance part="5V_1" gate="G$1" x="25.4" y="93.98"/>
 <instance part="JP1" gate="G$1" x="176.53" y="12.7"/>
@@ -8530,7 +8619,12 @@ the other, not both.</text>
 <instance part="GND29" gate="1" x="223.52" y="-7.62"/>
 <instance part="R18" gate="G$1" x="218.44" y="16.51" rot="R90"/>
 <instance part="5V_14" gate="G$1" x="218.44" y="25.4"/>
-<instance part="C16" gate="G$1" x="213.36" y="3.81" rot="R90"/>
+<instance part="C16" gate="G$1" x="213.36" y="3.81" rot="R90">
+<attribute name="MANUFACTURER" x="213.36" y="3.81" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="213.36" y="3.81" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOLERANCE" x="213.36" y="3.81" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLTAGE" x="213.36" y="3.81" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="JP5" gate="B" x="217.17" y="101.6"/>
 <instance part="J7" gate="1" x="123.19" y="226.06" rot="R90"/>
 <instance part="J10" gate="1" x="180.34" y="226.06" rot="R90"/>
@@ -8546,13 +8640,20 @@ the other, not both.</text>
 <instance part="C8" gate="G$1" x="68.58" y="180.34" rot="MR270">
 <attribute name="ESR" x="68.58" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="VDC" x="74.93" y="181.61" size="1.778" layer="96" rot="MR270"/>
+<attribute name="MANUFACTURER" x="68.58" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="68.58" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" x="68.58" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="44.45" y="190.5" rot="MR0">
-<attribute name="ESR" x="44.45" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="VDC" x="44.45" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="44.45" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="44.45" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" x="44.45" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="6.35" y="177.8" rot="MR270">
 <attribute name="VDC" x="12.7" y="179.07" size="1.778" layer="96" rot="MR270"/>
+<attribute name="MANUFACTURER" x="6.35" y="177.8" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="6.35" y="177.8" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="58.42" y="175.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="56.896" y="172.72" size="1.778" layer="95" rot="R90"/>
@@ -8571,7 +8672,12 @@ the other, not both.</text>
 <instance part="J2" gate="G$1" x="49.53" y="-33.02"/>
 <instance part="U3" gate="G$1" x="97.79" y="-45.72"/>
 <instance part="U4" gate="G$1" x="102.87" y="-20.32"/>
-<instance part="C11" gate="G$1" x="119.38" y="-48.26" rot="MR270"/>
+<instance part="C11" gate="G$1" x="119.38" y="-48.26" rot="MR270">
+<attribute name="MANUFACTURER" x="119.38" y="-48.26" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="119.38" y="-48.26" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" x="119.38" y="-48.26" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="VOLTAGE" x="119.38" y="-48.26" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
 <instance part="+3V31" gate="G$1" x="77.47" y="-6.35"/>
 <instance part="GND18" gate="1" x="118.11" y="-30.48"/>
 <instance part="GND16" gate="1" x="113.03" y="-55.88"/>
@@ -8580,6 +8686,9 @@ the other, not both.</text>
 </instance>
 <instance part="C6" gate="G$1" x="53.34" y="137.16" rot="MR90">
 <attribute name="VDC" x="53.34" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" x="53.34" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="53.34" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" x="53.34" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="12V_3" gate="G$1" x="8.89" y="91.44"/>
 <instance part="GND3" gate="1" x="8.89" y="69.85"/>
@@ -8621,9 +8730,22 @@ the other, not both.</text>
 <instance part="JP4" gate="G$1" x="204.47" y="194.31"/>
 <instance part="12V_8" gate="G$1" x="198.12" y="196.85"/>
 <instance part="5V_11" gate="G$1" x="214.63" y="196.85"/>
-<instance part="X1" gate="G$1" x="149.86" y="38.1"/>
-<instance part="C12" gate="G$1" x="144.78" y="30.48" rot="MR90"/>
-<instance part="C13" gate="G$1" x="154.94" y="30.48" rot="MR90"/>
+<instance part="X1" gate="G$1" x="149.86" y="38.1">
+<attribute name="MANUFACTURER" x="149.86" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="149.86" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C12" gate="G$1" x="144.78" y="30.48" rot="MR90">
+<attribute name="MANUFACTURER" x="144.78" y="30.48" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="144.78" y="30.48" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" x="144.78" y="30.48" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="VOLTAGE" x="144.78" y="30.48" size="1.778" layer="96" rot="MR90" display="off"/>
+</instance>
+<instance part="C13" gate="G$1" x="154.94" y="30.48" rot="MR90">
+<attribute name="MANUFACTURER" x="154.94" y="30.48" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="154.94" y="30.48" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" x="154.94" y="30.48" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="VOLTAGE" x="154.94" y="30.48" size="1.778" layer="96" rot="MR90" display="off"/>
+</instance>
 <instance part="GND21" gate="1" x="149.86" y="21.59" rot="MR0"/>
 <instance part="D2" gate="G$1" x="43.18" y="220.98" rot="R90">
 <attribute name="CURRENT" x="43.18" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
@@ -8635,6 +8757,9 @@ the other, not both.</text>
 <instance part="C10" gate="G$1" x="81.28" y="180.34" rot="MR270">
 <attribute name="ESR" x="81.28" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="VDC" x="87.63" y="181.61" size="1.778" layer="96" rot="MR270"/>
+<attribute name="MANUFACTURER" x="81.28" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="81.28" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" x="81.28" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="58.42" y="194.31" rot="R90">
 <attribute name="DCR" x="58.42" y="194.31" size="1.778" layer="96" rot="R90" display="off"/>
