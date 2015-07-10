@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8574,7 +8574,7 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <text x="1.27" y="238.76" size="1.778" layer="91" font="vector">Mosfets</text>
 <text x="10.16" y="149.86" size="1.778" layer="91" font="vector">Power Acc</text>
 <text x="60.96" y="7.62" size="3.81" layer="94">Teensylu2</text>
-<text x="175.26" y="7.62" size="2.54" layer="94">Rev 0.9</text>
+<text x="175.26" y="7.62" size="2.54" layer="94">Rev 1.0</text>
 <text x="111.76" y="7.62" size="3.048" layer="94">Control for Reprap</text>
 <text x="63.5" y="2.54" size="2.032" layer="94">Licensed under the Creative Commons Attributions ShareAlike 3.0 License</text>
 <text x="149.86" y="200.66" size="1.778" layer="91" font="vector">Extension Pin Headers</text>
@@ -9029,10 +9029,10 @@ the other, not both.</text>
 <attribute name="MANUFACTURER_PART_NUMBER" x="233.68" y="10.16" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NOTES" x="233.68" y="10.16" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="Q5" gate="G$1" x="203.2" y="175.26" rot="R180">
-<attribute name="DESCRIPTION" x="203.2" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" x="203.2" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="203.2" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="Q5" gate="G$1" x="203.2" y="182.88" rot="MR0">
+<attribute name="DESCRIPTION" x="203.2" y="182.88" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="203.2" y="182.88" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="203.2" y="182.88" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -9167,10 +9167,10 @@ the other, not both.</text>
 <pinref part="JP7" gate="G$1" pin="3"/>
 <pinref part="JP10" gate="G$1" pin="3"/>
 <junction x="234.95" y="127"/>
-<pinref part="Q5" gate="G$1" pin="C"/>
-<wire x1="200.66" y1="170.18" x2="200.66" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="167.64" x2="234.95" y2="167.64" width="0.1524" layer="91"/>
 <junction x="234.95" y="167.64"/>
+<pinref part="Q5" gate="G$1" pin="E"/>
+<wire x1="200.66" y1="167.64" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="118.11" y1="176.53" x2="118.11" y2="172.72" width="0.1524" layer="91"/>
@@ -10074,9 +10074,9 @@ the other, not both.</text>
 </net>
 <net name="Z-STOP" class="0">
 <segment>
-<pinref part="Q5" gate="G$1" pin="E"/>
-<wire x1="200.66" y1="187.96" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
 <label x="200.66" y="190.5" size="1.778" layer="95"/>
+<pinref part="Q5" gate="G$1" pin="C"/>
+<wire x1="200.66" y1="187.96" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="77.47" x2="166.37" y2="77.47" width="0.1524" layer="91"/>
@@ -11102,7 +11102,7 @@ the other, not both.</text>
 <wire x1="219.71" y1="180.34" x2="215.9" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
 <pinref part="Q5" gate="G$1" pin="B"/>
-<wire x1="215.9" y1="180.34" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="180.34" x2="215.9" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PE3" class="0">
